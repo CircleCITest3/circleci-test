@@ -1,5 +1,3 @@
-const sum = require("./");
-
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
-});
+test("adds 1 + 2 to equal 3", async () => {
+  await new Promise((res) => setTimeout(res, 39000));
+}, 40000);
